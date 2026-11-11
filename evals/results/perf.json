@@ -1,0 +1,43 @@
+{
+  "machine": "Linux x86_64, 2 CPUs, Python 3.13.18",
+  "files": 5014,
+  "bytes": 612272335,
+  "plan_dry_run": {
+    "p50_ms": 481.6,
+    "p95_ms": 561.4,
+    "runs": 20
+  },
+  "files_per_second_planned": 10411,
+  "dedupe_three_sieves": {
+    "p50_ms": 202.7,
+    "p95_ms": 224.2,
+    "runs": 10
+  },
+  "naive_full_hash": {
+    "p50_ms": 583.4,
+    "p95_ms": 701.2,
+    "runs": 5
+  },
+  "bytes_read_tiered": 209550691,
+  "bytes_read_naive": 612272335,
+  "bytes_saved_share": 0.6577492089365755,
+  "files_edge_hashed": 2126,
+  "files_full_hashed": 749,
+  "apply": {
+    "p50_ms": 1657.7,
+    "p95_ms": 2320.6,
+    "runs": 5
+  },
+  "undo": {
+    "p50_ms": 438.3,
+    "p95_ms": 491.7,
+    "runs": 5
+  },
+  "cli_cold_dry_run": {
+    "p50_ms": 682.7,
+    "p95_ms": 781.6,
+    "runs": 10
+  },
+  "peak_python_heap_mb": 10.9,
+  "sha256_mb_per_s": 1365
+}

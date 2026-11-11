@@ -1,0 +1,583 @@
+{
+  "seeds": "100-119",
+  "trees": 20,
+  "files": 40280,
+  "bytes": 4828826255,
+  "dup_pair_precision": 1.0,
+  "dup_pair_recall": 1.0,
+  "dup_groups_exact": "6432/6432",
+  "traps_grouped": "0/800",
+  "empty_files_grouped": 0,
+  "category_accuracy": 1.0,
+  "category_misses": {},
+  "skips_right": "20/20",
+  "dry_run_clean": "20/20",
+  "bytes_preserved": "20/20",
+  "moved": 40280,
+  "not_moved": 0,
+  "groups_with_one_live_copy": "6432/6432",
+  "idempotent": "20/20",
+  "undo_exact": "20/20",
+  "per_seed": [
+    {
+      "seed": 100,
+      "files": 2014,
+      "bytes": 242597732,
+      "true_pairs": 406,
+      "found_pairs": 406,
+      "correct_pairs": 406,
+      "true_groups": 317,
+      "exact_groups": 317,
+      "traps": 40,
+      "traps_grouped": 0,
+      "empty_grouped": 0,
+      "category_right": 2014,
+      "category_misses": {},
+      "skips_right": true,
+      "dry_run_clean": true,
+      "apply_counts": {
+        "moved": 2014
+      },
+      "bytes_preserved": true,
+      "groups_with_one_live_copy": 317,
+      "rerun_actions": 0,
+      "undo_steps": {
+        "restored": 2014
+      },
+      "undo_exact": true,
+      "collisions_renamed": 840
+    },
+    {
+      "seed": 101,
+      "files": 2014,
+      "bytes": 247608148,
+      "true_pairs": 398,
+      "found_pairs": 398,
+      "correct_pairs": 398,
+      "true_groups": 322,
+      "exact_groups": 322,
+      "traps": 40,
+      "traps_grouped": 0,
+      "empty_grouped": 0,
+      "category_right": 2014,
+      "category_misses": {},
+      "skips_right": true,
+      "dry_run_clean": true,
+      "apply_counts": {
+        "moved": 2014
+      },
+      "bytes_preserved": true,
+      "groups_with_one_live_copy": 322,
+      "rerun_actions": 0,
+      "undo_steps": {
+        "restored": 2014
+      },
+      "undo_exact": true,
+      "collisions_renamed": 817
+    },
+    {
+      "seed": 102,
+      "files": 2014,
+      "bytes": 239569978,
+      "true_pairs": 403,
+      "found_pairs": 403,
+      "correct_pairs": 403,
+      "true_groups": 320,
+      "exact_groups": 320,
+      "traps": 40,
+      "traps_grouped": 0,
+      "empty_grouped": 0,
+      "category_right": 2014,
+      "category_misses": {},
+      "skips_right": true,
+      "dry_run_clean": true,
+      "apply_counts": {
+        "moved": 2014
+      },
+      "bytes_preserved": true,
+      "groups_with_one_live_copy": 320,
+      "rerun_actions": 0,
+      "undo_steps": {
+        "restored": 2014
+      },
+      "undo_exact": true,
+      "collisions_renamed": 832
+    },
+    {
+      "seed": 103,
+      "files": 2014,
+      "bytes": 265164273,
+      "true_pairs": 401,
+      "found_pairs": 401,
+      "correct_pairs": 401,
+      "true_groups": 323,
+      "exact_groups": 323,
+      "traps": 40,
+      "traps_grouped": 0,
+      "empty_grouped": 0,
+      "category_right": 2014,
+      "category_misses": {},
+      "skips_right": true,
+      "dry_run_clean": true,
+      "apply_counts": {
+        "moved": 2014
+      },
+      "bytes_preserved": true,
+      "groups_with_one_live_copy": 323,
+      "rerun_actions": 0,
+      "undo_steps": {
+        "restored": 2014
+      },
+      "undo_exact": true,
+      "collisions_renamed": 831
+    },
+    {
+      "seed": 104,
+      "files": 2014,
+      "bytes": 245643931,
+      "true_pairs": 400,
+      "found_pairs": 400,
+      "correct_pairs": 400,
+      "true_groups": 323,
+      "exact_groups": 323,
+      "traps": 40,
+      "traps_grouped": 0,
+      "empty_grouped": 0,
+      "category_right": 2014,
+      "category_misses": {},
+      "skips_right": true,
+      "dry_run_clean": true,
+      "apply_counts": {
+        "moved": 2014
+      },
+      "bytes_preserved": true,
+      "groups_with_one_live_copy": 323,
+      "rerun_actions": 0,
+      "undo_steps": {
+        "restored": 2014
+      },
+      "undo_exact": true,
+      "collisions_renamed": 791
+    },
+    {
+      "seed": 105,
+      "files": 2014,
+      "bytes": 247678335,
+      "true_pairs": 401,
+      "found_pairs": 401,
+      "correct_pairs": 401,
+      "true_groups": 322,
+      "exact_groups": 322,
+      "traps": 40,
+      "traps_grouped": 0,
+      "empty_grouped": 0,
+      "category_right": 2014,
+      "category_misses": {},
+      "skips_right": true,
+      "dry_run_clean": true,
+      "apply_counts": {
+        "moved": 2014
+      },
+      "bytes_preserved": true,
+      "groups_with_one_live_copy": 322,
+      "rerun_actions": 0,
+      "undo_steps": {
+        "restored": 2014
+      },
+      "undo_exact": true,
+      "collisions_renamed": 830
+    },
+    {
+      "seed": 106,
+      "files": 2014,
+      "bytes": 226473380,
+      "true_pairs": 412,
+      "found_pairs": 412,
+      "correct_pairs": 412,
+      "true_groups": 313,
+      "exact_groups": 313,
+      "traps": 40,
+      "traps_grouped": 0,
+      "empty_grouped": 0,
+      "category_right": 2014,
+      "category_misses": {},
+      "skips_right": true,
+      "dry_run_clean": true,
+      "apply_counts": {
+        "moved": 2014
+      },
+      "bytes_preserved": true,
+      "groups_with_one_live_copy": 313,
+      "rerun_actions": 0,
+      "undo_steps": {
+        "restored": 2014
+      },
+      "undo_exact": true,
+      "collisions_renamed": 870
+    },
+    {
+      "seed": 107,
+      "files": 2014,
+      "bytes": 233374241,
+      "true_pairs": 402,
+      "found_pairs": 402,
+      "correct_pairs": 402,
+      "true_groups": 322,
+      "exact_groups": 322,
+      "traps": 40,
+      "traps_grouped": 0,
+      "empty_grouped": 0,
+      "category_right": 2014,
+      "category_misses": {},
+      "skips_right": true,
+      "dry_run_clean": true,
+      "apply_counts": {
+        "moved": 2014
+      },
+      "bytes_preserved": true,
+      "groups_with_one_live_copy": 322,
+      "rerun_actions": 0,
+      "undo_steps": {
+        "restored": 2014
+      },
+      "undo_exact": true,
+      "collisions_renamed": 795
+    },
+    {
+      "seed": 108,
+      "files": 2014,
+      "bytes": 269600501,
+      "true_pairs": 393,
+      "found_pairs": 393,
+      "correct_pairs": 393,
+      "true_groups": 328,
+      "exact_groups": 328,
+      "traps": 40,
+      "traps_grouped": 0,
+      "empty_grouped": 0,
+      "category_right": 2014,
+      "category_misses": {},
+      "skips_right": true,
+      "dry_run_clean": true,
+      "apply_counts": {
+        "moved": 2014
+      },
+      "bytes_preserved": true,
+      "groups_with_one_live_copy": 328,
+      "rerun_actions": 0,
+      "undo_steps": {
+        "restored": 2014
+      },
+      "undo_exact": true,
+      "collisions_renamed": 810
+    },
+    {
+      "seed": 109,
+      "files": 2014,
+      "bytes": 251870441,
+      "true_pairs": 391,
+      "found_pairs": 391,
+      "correct_pairs": 391,
+      "true_groups": 331,
+      "exact_groups": 331,
+      "traps": 40,
+      "traps_grouped": 0,
+      "empty_grouped": 0,
+      "category_right": 2014,
+      "category_misses": {},
+      "skips_right": true,
+      "dry_run_clean": true,
+      "apply_counts": {
+        "moved": 2014
+      },
+      "bytes_preserved": true,
+      "groups_with_one_live_copy": 331,
+      "rerun_actions": 0,
+      "undo_steps": {
+        "restored": 2014
+      },
+      "undo_exact": true,
+      "collisions_renamed": 841
+    },
+    {
+      "seed": 110,
+      "files": 2014,
+      "bytes": 233463781,
+      "true_pairs": 402,
+      "found_pairs": 402,
+      "correct_pairs": 402,
+      "true_groups": 322,
+      "exact_groups": 322,
+      "traps": 40,
+      "traps_grouped": 0,
+      "empty_grouped": 0,
+      "category_right": 2014,
+      "category_misses": {},
+      "skips_right": true,
+      "dry_run_clean": true,
+      "apply_counts": {
+        "moved": 2014
+      },
+      "bytes_preserved": true,
+      "groups_with_one_live_copy": 322,
+      "rerun_actions": 0,
+      "undo_steps": {
+        "restored": 2014
+      },
+      "undo_exact": true,
+      "collisions_renamed": 836
+    },
+    {
+      "seed": 111,
+      "files": 2014,
+      "bytes": 239781089,
+      "true_pairs": 406,
+      "found_pairs": 406,
+      "correct_pairs": 406,
+      "true_groups": 316,
+      "exact_groups": 316,
+      "traps": 40,
+      "traps_grouped": 0,
+      "empty_grouped": 0,
+      "category_right": 2014,
+      "category_misses": {},
+      "skips_right": true,
+      "dry_run_clean": true,
+      "apply_counts": {
+        "moved": 2014
+      },
+      "bytes_preserved": true,
+      "groups_with_one_live_copy": 316,
+      "rerun_actions": 0,
+      "undo_steps": {
+        "restored": 2014
+      },
+      "undo_exact": true,
+      "collisions_renamed": 846
+    },
+    {
+      "seed": 112,
+      "files": 2014,
+      "bytes": 206332540,
+      "true_pairs": 398,
+      "found_pairs": 398,
+      "correct_pairs": 398,
+      "true_groups": 325,
+      "exact_groups": 325,
+      "traps": 40,
+      "traps_grouped": 0,
+      "empty_grouped": 0,
+      "category_right": 2014,
+      "category_misses": {},
+      "skips_right": true,
+      "dry_run_clean": true,
+      "apply_counts": {
+        "moved": 2014
+      },
+      "bytes_preserved": true,
+      "groups_with_one_live_copy": 325,
+      "rerun_actions": 0,
+      "undo_steps": {
+        "restored": 2014
+      },
+      "undo_exact": true,
+      "collisions_renamed": 804
+    },
+    {
+      "seed": 113,
+      "files": 2014,
+      "bytes": 242223122,
+      "true_pairs": 408,
+      "found_pairs": 408,
+      "correct_pairs": 408,
+      "true_groups": 317,
+      "exact_groups": 317,
+      "traps": 40,
+      "traps_grouped": 0,
+      "empty_grouped": 0,
+      "category_right": 2014,
+      "category_misses": {},
+      "skips_right": true,
+      "dry_run_clean": true,
+      "apply_counts": {
+        "moved": 2014
+      },
+      "bytes_preserved": true,
+      "groups_with_one_live_copy": 317,
+      "rerun_actions": 0,
+      "undo_steps": {
+        "restored": 2014
+      },
+      "undo_exact": true,
+      "collisions_renamed": 816
+    },
+    {
+      "seed": 114,
+      "files": 2014,
+      "bytes": 259775228,
+      "true_pairs": 409,
+      "found_pairs": 409,
+      "correct_pairs": 409,
+      "true_groups": 315,
+      "exact_groups": 315,
+      "traps": 40,
+      "traps_grouped": 0,
+      "empty_grouped": 0,
+      "category_right": 2014,
+      "category_misses": {},
+      "skips_right": true,
+      "dry_run_clean": true,
+      "apply_counts": {
+        "moved": 2014
+      },
+      "bytes_preserved": true,
+      "groups_with_one_live_copy": 315,
+      "rerun_actions": 0,
+      "undo_steps": {
+        "restored": 2014
+      },
+      "undo_exact": true,
+      "collisions_renamed": 836
+    },
+    {
+      "seed": 115,
+      "files": 2014,
+      "bytes": 233757913,
+      "true_pairs": 391,
+      "found_pairs": 391,
+      "correct_pairs": 391,
+      "true_groups": 330,
+      "exact_groups": 330,
+      "traps": 40,
+      "traps_grouped": 0,
+      "empty_grouped": 0,
+      "category_right": 2014,
+      "category_misses": {},
+      "skips_right": true,
+      "dry_run_clean": true,
+      "apply_counts": {
+        "moved": 2014
+      },
+      "bytes_preserved": true,
+      "groups_with_one_live_copy": 330,
+      "rerun_actions": 0,
+      "undo_steps": {
+        "restored": 2014
+      },
+      "undo_exact": true,
+      "collisions_renamed": 779
+    },
+    {
+      "seed": 116,
+      "files": 2014,
+      "bytes": 225941111,
+      "true_pairs": 401,
+      "found_pairs": 401,
+      "correct_pairs": 401,
+      "true_groups": 322,
+      "exact_groups": 322,
+      "traps": 40,
+      "traps_grouped": 0,
+      "empty_grouped": 0,
+      "category_right": 2014,
+      "category_misses": {},
+      "skips_right": true,
+      "dry_run_clean": true,
+      "apply_counts": {
+        "moved": 2014
+      },
+      "bytes_preserved": true,
+      "groups_with_one_live_copy": 322,
+      "rerun_actions": 0,
+      "undo_steps": {
+        "restored": 2014
+      },
+      "undo_exact": true,
+      "collisions_renamed": 809
+    },
+    {
+      "seed": 117,
+      "files": 2014,
+      "bytes": 231639004,
+      "true_pairs": 390,
+      "found_pairs": 390,
+      "correct_pairs": 390,
+      "true_groups": 332,
+      "exact_groups": 332,
+      "traps": 40,
+      "traps_grouped": 0,
+      "empty_grouped": 0,
+      "category_right": 2014,
+      "category_misses": {},
+      "skips_right": true,
+      "dry_run_clean": true,
+      "apply_counts": {
+        "moved": 2014
+      },
+      "bytes_preserved": true,
+      "groups_with_one_live_copy": 332,
+      "rerun_actions": 0,
+      "undo_steps": {
+        "restored": 2014
+      },
+      "undo_exact": true,
+      "collisions_renamed": 831
+    },
+    {
+      "seed": 118,
+      "files": 2014,
+      "bytes": 250543350,
+      "true_pairs": 411,
+      "found_pairs": 411,
+      "correct_pairs": 411,
+      "true_groups": 316,
+      "exact_groups": 316,
+      "traps": 40,
+      "traps_grouped": 0,
+      "empty_grouped": 0,
+      "category_right": 2014,
+      "category_misses": {},
+      "skips_right": true,
+      "dry_run_clean": true,
+      "apply_counts": {
+        "moved": 2014
+      },
+      "bytes_preserved": true,
+      "groups_with_one_live_copy": 316,
+      "rerun_actions": 0,
+      "undo_steps": {
+        "restored": 2014
+      },
+      "undo_exact": true,
+      "collisions_renamed": 841
+    },
+    {
+      "seed": 119,
+      "files": 2014,
+      "bytes": 235788157,
+      "true_pairs": 411,
+      "found_pairs": 411,
+      "correct_pairs": 411,
+      "true_groups": 316,
+      "exact_groups": 316,
+      "traps": 40,
+      "traps_grouped": 0,
+      "empty_grouped": 0,
+      "category_right": 2014,
+      "category_misses": {},
+      "skips_right": true,
+      "dry_run_clean": true,
+      "apply_counts": {
+        "moved": 2014
+      },
+      "bytes_preserved": true,
+      "groups_with_one_live_copy": 316,
+      "rerun_actions": 0,
+      "undo_steps": {
+        "restored": 2014
+      },
+      "undo_exact": true,
+      "collisions_renamed": 792
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "attacks": 16,
+  "succeeded_with_all_defences": 0,
+  "baseline": {
+    "template_traversal": false,
+    "rules_traversal": false,
+    "symlinked_category_folder": false,
+    "symlink_to_outside_file": false,
+    "symlink_loop": false,
+    "duplicate_changed_after_plan": false,
+    "symlink_swapped_in_after_plan": false,
+    "destination_created_after_plan": false,
+    "case_and_accent_collision": false,
+    "name_too_long": false,
+    "terminal_escape": false,
+    "bidi_override": false,
+    "markdown_table_injection": false,
+    "csv_formula": false,
+    "journal_restore_outside": false,
+    "journal_pull_victim_in": false
+  },
+  "ablation": [
+    {
+      "defence_off": "Path containment (one path segment, resolve() inside dest)",
+      "succeeded": 3,
+      "tried": 3,
+      "which": [
+        "template_traversal",
+        "rules_traversal",
+        "symlinked_category_folder"
+      ]
+    },
+    {
+      "defence_off": "lstat(): never follow symlinks while scanning",
+      "succeeded": 1,
+      "tried": 2,
+      "which": [
+        "symlink_loop"
+      ]
+    },
+    {
+      "defence_off": "lstat() AND stale-plan check together",
+      "succeeded": 0,
+      "tried": 1,
+      "which": []
+    },
+    {
+      "defence_off": "Re-hash copy and keeper before quarantine",
+      "succeeded": 1,
+      "tried": 1,
+      "which": [
+        "duplicate_changed_after_plan"
+      ]
+    },
+    {
+      "defence_off": "Stale-plan check (still a regular file, same size and mtime)",
+      "succeeded": 1,
+      "tried": 1,
+      "which": [
+        "symlink_swapped_in_after_plan"
+      ]
+    },
+    {
+      "defence_off": "No-clobber move (os.link, then unlink)",
+      "succeeded": 1,
+      "tried": 1,
+      "which": [
+        "destination_created_after_plan"
+      ]
+    },
+    {
+      "defence_off": "Case- and accent-insensitive name claims",
+      "succeeded": 0,
+      "tried": 1,
+      "which": []
+    },
+    {
+      "defence_off": "Name claims AND no-clobber move together",
+      "succeeded": 1,
+      "tried": 1,
+      "which": [
+        "case_and_accent_collision"
+      ]
+    },
+    {
+      "defence_off": "255-byte name limit",
+      "succeeded": 1,
+      "tried": 1,
+      "which": [
+        "name_too_long"
+      ]
+    },
+    {
+      "defence_off": "Escaping in terminal, Markdown and CSV output",
+      "succeeded": 4,
+      "tried": 4,
+      "which": [
+        "terminal_escape",
+        "bidi_override",
+        "markdown_table_injection",
+        "csv_formula"
+      ]
+    },
+    {
+      "defence_off": "Undo journal path checks",
+      "succeeded": 2,
+      "tried": 2,
+      "which": [
+        "journal_restore_outside",
+        "journal_pull_victim_in"
+      ]
+    }
+  ]
+}

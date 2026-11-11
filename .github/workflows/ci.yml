@@ -1,0 +1,24 @@
+name: CI
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: src
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install ruff pytest
+      - name: Lint and invisible-character guard
+        run: make lint
+      - name: Tests
+        run: make test
+      - name: Re-measure accuracy, gold set and attacks (perf numbers are machine-specific, so not re-run)
+        run: python3 evals/run_all.py --only accuracy,gold,attacks
+      - name: README table must match the fresh results
+        run: git diff --exit-code README.md evals/results/accuracy.json evals/results/gold.json evals/results/attacks.json
+      - name: Demo runs end to end
+        run: make demo

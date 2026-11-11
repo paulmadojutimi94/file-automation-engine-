@@ -1,0 +1,37 @@
+rm -rf demo && python3 -m file_engine generate demo/messy --files 1000 --seed 7
+Wrote 1,014 files (119.1 MB) with 163 planted duplicate groups to demo/messy
+Answer key: demo/messy.answers.json
+python3 -m file_engine organize demo/messy --rename --report-dir demo/reports
+Planned in 0.11s: 834 moves (834 renamed), 180 duplicates to quarantine, 0 already in place, 4 skipped.
+  quarantine Desktop/Copy of untitled.7z  ->  _duplicates/Desktop/Copy of untitled.7z
+  quarantine Desktop/Copy of untitled.JPG  ->  _duplicates/Desktop/Copy of untitled.JPG
+  quarantine Desktop/IMG_3256 (1).JPG  ->  _duplicates/Desktop/IMG_3256 (1).JPG
+  quarantine Desktop/Report FINAL v2 - Copy.MOV  ->  _duplicates/Desktop/Report FINAL v2 - Copy.MOV
+  quarantine Desktop/Screenshot 2026-03-17 at 10.21.77 (1).7z  ->  _duplicates/Desktop/Screenshot 2026-03-17 at 10.21.77 (1).7z
+  quarantine Desktop/backup 2023 - Copy.zip  ->  _duplicates/Desktop/backup 2023 - Copy.zip
+  quarantine Desktop/budget 2020 - Copy.PDF  ->  _duplicates/Desktop/budget 2020 - Copy.PDF
+  quarantine Desktop/data export (3).docx  ->  _duplicates/Desktop/data export (3).docx
+  quarantine Desktop/holiday photo 8355 (2).md  ->  _duplicates/Desktop/holiday photo 8355 (2).md
+  quarantine Desktop/old stuff/Copy of data export (4).TAR.GZ  ->  _duplicates/Desktop/old stuff/Copy of data export (4).TAR.GZ
+  quarantine Desktop/old stuff/Copy of setup.mp3  ->  _duplicates/Desktop/old stuff/Copy of setup.mp3
+  quarantine Desktop/old stuff/Kids' party 🎉 7490 (1).csv  ->  _duplicates/Desktop/old stuff/Kids' party 🎉 7490 (1).csv
+  quarantine Desktop/old stuff/Meeting Recording 3069.docx  ->  _duplicates/Desktop/old stuff/Meeting Recording 3069.docx
+  quarantine Desktop/old stuff/backup 2020 (1).7z  ->  _duplicates/Desktop/old stuff/backup 2020 (1).7z
+  quarantine Desktop/old stuff/backup 2024 - Copy.pptx  ->  _duplicates/Desktop/old stuff/backup 2024 - Copy.pptx
+  ... 999 more (see actions.csv)
+
+DRY RUN: nothing was changed. Review demo/reports/report.md, then re-run with --apply.
+python3 -m file_engine organize demo/messy --rename --report-dir demo/reports --show 0 --apply
+Planned in 0.11s: 834 moves (834 renamed), 180 duplicates to quarantine, 0 already in place, 4 skipped.
+  ... 1,014 more (see actions.csv)
+
+Applied: 1,014 moved, 0 skipped, 0 failed.
+Report: demo/reports/report.md
+Undo:   file-engine undo demo/messy/.file-engine/journal-20261111-233339-380121.jsonl --apply
+python3 -m file_engine organize demo/messy --rename --report-dir demo/reports --show 0
+Planned in 0.02s: 0 moves (0 renamed), 0 duplicates to quarantine, 834 already in place, 4 skipped.
+
+DRY RUN: nothing was changed. Review demo/reports/report.md, then re-run with --apply.
+python3 -m file_engine undo $(ls demo/messy/.file-engine/journal-*.jsonl) --apply
+restored: 1014
+Removed 29 empty folder(s) the run had created.

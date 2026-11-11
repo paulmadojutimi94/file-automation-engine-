@@ -1,0 +1,242 @@
+{
+  "mode": "dry-run",
+  "root": "demo/messy",
+  "dest": "demo/messy",
+  "scanned": {
+    "files": 1014,
+    "bytes": 124882164,
+    "folders": 19,
+    "skipped": {
+      "hidden": 2,
+      "symlink": 2
+    }
+  },
+  "categories": {
+    "Documents": {
+      "files": 164,
+      "bytes": 21919321
+    },
+    "Archives": {
+      "files": 152,
+      "bytes": 15245198
+    },
+    "Images": {
+      "files": 144,
+      "bytes": 16294842
+    },
+    "Other": {
+      "files": 96,
+      "bytes": 17557906
+    },
+    "Code": {
+      "files": 94,
+      "bytes": 7734545
+    },
+    "Audio": {
+      "files": 79,
+      "bytes": 14370049
+    },
+    "Video": {
+      "files": 77,
+      "bytes": 7167404
+    },
+    "Presentations": {
+      "files": 69,
+      "bytes": 4416587
+    },
+    "Spreadsheets": {
+      "files": 52,
+      "bytes": 10324852
+    },
+    "Installers": {
+      "files": 51,
+      "bytes": 5818929
+    },
+    "Fonts": {
+      "files": 36,
+      "bytes": 4032531
+    }
+  },
+  "duplicates": {
+    "groups": 163,
+    "copies": 180,
+    "wasted_bytes": 18673015,
+    "bytes_read_to_find_them": 43877699,
+    "bytes_a_naive_full_hash_reads": 124882164,
+    "files_edge_hashed": 390,
+    "files_full_hashed": 152,
+    "hash_errors": 0,
+    "top": [
+      {
+        "keep": "tmp/budget 2026.xlsx",
+        "copies": [
+          "Music/unsorted/budget 2026 (2).xlsx"
+        ],
+        "size": 2008924,
+        "sha256": "49d54e753b57c2e5f42bea9df8cc73cc3ad108746424ceb1fef16cb711a9920d"
+      },
+      {
+        "keep": "Documents/2024 taxes/budget 2021.bak",
+        "copies": [
+          "tmp/budget 2021 - Copy.bak"
+        ],
+        "size": 1976945,
+        "sha256": "c82efef74cc2263e01c2455cd6778139d2fb13272f38c977889b41c234c813a9"
+      },
+      {
+        "keep": "tmp/WhatsApp Image 2025-04-14 at 09.09.gif",
+        "copies": [
+          "projects/website backup/Copy of WhatsApp Image 2025-04-14 at 09.09.gif"
+        ],
+        "size": 1473783,
+        "sha256": "e3b931fbe6d9d3be5fedb01e24805ac5870b462b077faf7308de8c889a6cdcf4"
+      },
+      {
+        "keep": "Downloads/Telegram Desktop/IMG_4192.tmp",
+        "copies": [
+          "Documents/2024 taxes/IMG_4192.tmp"
+        ],
+        "size": 1430064,
+        "sha256": "edf5ccc6d746f2a2588caddf29bff86357837763d76f38b302ffbd26834526d5"
+      },
+      {
+        "keep": "Music/unsorted/WhatsApp Image 2024-02-12 at 09.07.gif",
+        "copies": [
+          "tmp/invoice 2763.gif"
+        ],
+        "size": 1344787,
+        "sha256": "41c5324ef2b4391312ff73c2095689693c3605c0a363d3a56dfccfacacbb3975"
+      },
+      {
+        "keep": "Pictures/phone dump/notes.m4a",
+        "copies": [
+          "Pictures/phone dump/2023/Copy of notes.m4a"
+        ],
+        "size": 1197306,
+        "sha256": "faee4c238a68e4a3e1c5a847c2197f7ac02221ab64a48d7d0904f45a6d01ef4a"
+      },
+      {
+        "keep": "Work/Q3 Planning/drafts/Document2835.jpeg",
+        "copies": [
+          "Pictures/phone dump/2023/Document2835 (1).jpeg"
+        ],
+        "size": 975115,
+        "sha256": "7a2cb5d575e8543c424631a57727cec20a691804ae5ff7593ad5c1ed646967cc"
+      },
+      {
+        "keep": "Documents/2024 taxes/Document2153.7z",
+        "copies": [
+          "Pictures/phone dump/2023/Copy of Document2153.7z"
+        ],
+        "size": 697859,
+        "sha256": "20d233eb6daa14c85fa5972b9e812b8c32d9084b78dfe96d350d57afd8e80ab9"
+      },
+      {
+        "keep": "Work/Q3 Planning/Meeting Recording 1511.bak",
+        "copies": [
+          "Pictures/phone dump/2023/Copy of Meeting Recording 1511.bak"
+        ],
+        "size": 488648,
+        "sha256": "23566aa3e6061b1a51096cde0b4398aa1d2f7bc369cdf607fd66ce77bf9f25a9"
+      },
+      {
+        "keep": "Desktop/old stuff/tax return 2023.txt",
+        "copies": [
+          "Pictures/phone dump/2023/tax return 2023 copy.txt"
+        ],
+        "size": 388784,
+        "sha256": "aad9470119e5f928bf5895a9607e2d9125af3035c270bfdb97701dd70e3dcfef"
+      },
+      {
+        "keep": "projects/website backup/backup 2023 (2).tar.gz",
+        "copies": [
+          "Music/unsorted/backup 2023.tar.gz"
+        ],
+        "size": 373311,
+        "sha256": "da940055482d89861db7504c8322cb3772057f579e7907df41bb269c4dd78f28"
+      },
+      {
+        "keep": "Pictures/phone dump/2023/notes.7z",
+        "copies": [
+          "projects/website backup/Copy of notes.7z"
+        ],
+        "size": 369087,
+        "sha256": "83ed7077e6f11916f566b0233d0bcefd17a0f7fc1aa713592c57f414db1f4772"
+      },
+      {
+        "keep": "Desktop/Kids' party 🎉 2871.MOV",
+        "copies": [
+          "Music/unsorted/Kids' party 🎉 2871 copy.MOV"
+        ],
+        "size": 233375,
+        "sha256": "f67bce844356210ae010cd6ba558568ce93aa01f9b80f4ad7eb6af9f8ee3e161"
+      },
+      {
+        "keep": "Desktop/old stuff/Meeting Recording 5736.tar.gz",
+        "copies": [
+          "Downloads/Telegram Desktop/Meeting Recording 5736 copy.tar.gz",
+          "Work/Q3 Planning/drafts/Meeting Recording 5736.tar.gz",
+          "projects/website backup/Copy of Meeting Recording 5736.tar.gz"
+        ],
+        "size": 62174,
+        "sha256": "29fff223c86adc32e77deba2c25a45d71fe4dd6ad6bbfd525d053e3346a09d0f"
+      },
+      {
+        "keep": "Documents/2024 taxes/holiday photo 132.ttf",
+        "copies": [
+          "Desktop/old stuff/holiday photo 132 (2).ttf"
+        ],
+        "size": 162308,
+        "sha256": "18bf8724a2c4d19e30627be885904922f02a8e3d9bd1c1e11519f12fe94a6f6a"
+      },
+      {
+        "keep": "Pictures/phone dump/budget 2020.PDF",
+        "copies": [
+          "Desktop/budget 2020 - Copy.PDF"
+        ],
+        "size": 156417,
+        "sha256": "17518fd3ddc8b9291d73366e5e42c51d292650b9e124277d35f0f101c61854e4"
+      },
+      {
+        "keep": "Documents/2024 taxes/holiday photo 8803.tar.gz",
+        "copies": [
+          "Documents/2024 taxes/contract [signed] 7157.tar.gz"
+        ],
+        "size": 154267,
+        "sha256": "799f8d41492b8b93027ff2a45c87c5dfef6c1dd8e7d01b88d3f2bc935617b690"
+      },
+      {
+        "keep": "Work/Q3 Planning/drafts/invoice 9918.ttf",
+        "copies": [
+          "Downloads/invoice 9918 (2).ttf",
+          "Work/Q3 Planning/invoice 9918 - Copy.ttf"
+        ],
+        "size": 75071,
+        "sha256": "3b1d302eac81b6822e1daed1498332c0750ee8982816a1c15ee047c1108919eb"
+      },
+      {
+        "keep": "Work/Q3 Planning/song 674.TAR.GZ",
+        "copies": [
+          "Documents/misc/song 674.TAR.GZ"
+        ],
+        "size": 147599,
+        "sha256": "576337f394cd1dbb4c42b3daf3b141b9d23e26fa2ef7787748982ee8b193fa94"
+      },
+      {
+        "keep": "Downloads/Telegram Desktop/presentation draft.ttf",
+        "copies": [
+          "Documents/misc/presentation draft (1).ttf"
+        ],
+        "size": 143287,
+        "sha256": "4618b070b45aaf28845d75476e2acfd0eca89b411be73b456ef220d800087a85"
+      }
+    ]
+  },
+  "plan": {
+    "moves": 834,
+    "renames": 834,
+    "quarantined": 180,
+    "already_in_place": 0,
+    "refused": []
+  }
+}
