@@ -1,6 +1,6 @@
 # file-automation-engine
 
-[![CI](https://github.com/paulmadojutimi94/file-automation-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/paulmadojutimi94/file-automation-engine/actions/workflows/ci.yml)
+[![CI](https://github.com/paulmadojutimi94/file-automation-engine-/actions/workflows/ci.yml/badge.svg)](https://github.com/paulmadojutimi94/file-automation-engine-/actions/workflows/ci.yml)
 
 **Point it at a messy folder and it finds the duplicates, cleans up the names, sorts everything into folders and tells you what it did. It shows you first, never overwrites, never deletes, and can undo.**
 
@@ -71,7 +71,7 @@ Think of a removal company. The **scanner** walks every room and lists every ite
 ## Try it in one minute
 
 ```bash
-git clone https://github.com/paulmadojutimi94/file-automation-engine && cd file-automation-engine
+git clone https://github.com/paulmadojutimi94/file-automation-engine- && cd file-automation-engine-
 make demo                                     # generate a messy folder, dry run, apply, re-run, undo
 
 # on your own folder: dry run first, always
