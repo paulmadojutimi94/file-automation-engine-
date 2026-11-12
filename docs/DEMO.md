@@ -1,6 +1,6 @@
 # Demo: 3-minute narration script
 
-**Video:** [demo/file-engine-demo.mp4](demo/file-engine-demo.mp4) (3:02, 1280×720, captions burnt in, no audio track).
+**Video:** [demo/file-engine-demo.mp4](demo/file-engine-demo.mp4) (3:02, 1280×720, captions burnt in, silent audio track for player compatibility).
 Rebuild it after any change with `PYTHONPATH=src python3 docs/demo/make_video.py`. Every scene is drawn from a real run (generate → dry run → apply → re-run → undo, done fresh each time) and from `evals/results/`. The script asserts that undo restored the folder before it writes the video.
 
 **To add your voice:** read each block at a relaxed pace (about 150 words a minute; each block fits its scene). Record it as one file, then:

@@ -367,34 +367,21 @@ def main() -> None:
             entries.append(f"file '{path}'\nduration {secs}")
         entries.append(f"file '{work / f'scene{len(scenes) - 1:02d}.png'}'")  # concat needs the last frame twice
         lst.write_text("\n".join(entries) + "\n")
-        for i, (img, _) in enumerate(scenes):
-            img.save(ROOT / "docs" / "demo" / f"frame-{i:02d}.png") if i in (3, 7, 8) else None
+        # Encoded for the widest playback support (phones, in-app previews, browsers):
+        # H.264 Main profile, level 4.0, a keyframe every 2 s, and a silent AAC track,
+        # because some players refuse a video with no audio stream at all.
         subprocess.run(
-            [
-                "ffmpeg",
-                "-y",
-                "-loglevel",
-                "error",
-                "-f",
-                "concat",
-                "-safe",
-                "0",
-                "-i",
-                str(lst),
-                "-vf",
-                "fps=30,format=yuv420p",
-                "-c:v",
-                "libx264",
-                "-preset",
-                "veryfast",
-                "-crf",
-                "20",
-                "-movflags",
-                "+faststart",
-                str(OUT),
-            ],
+            ["ffmpeg", "-y", "-loglevel", "error",
+             "-f", "concat", "-safe", "0", "-i", str(lst),
+             "-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100",
+             "-map", "0:v", "-map", "1:a", "-shortest",
+             "-vf", "fps=30,format=yuv420p",
+             "-c:v", "libx264", "-profile:v", "main", "-level", "4.0", "-preset", "veryfast", "-crf", "20",
+             "-g", "60", "-tag:v", "avc1",
+             "-c:a", "aac", "-b:a", "64k",
+             "-movflags", "+faststart", str(OUT)],
             check=True,
-        )
+        )  # fmt: skip
     total = sum(s for _, s in scenes)
     print(f"wrote {OUT.relative_to(ROOT)} ({total // 60}:{total % 60:02d})")
 
